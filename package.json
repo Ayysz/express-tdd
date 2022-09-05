@@ -1,0 +1,33 @@
+{
+  "name": "express-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha ./test/*",
+    "demon": "nodemon --delay 1.5 app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayysz/express-tdd.git"
+  },
+  "author": "player",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayysz/express-tdd/issues"
+  },
+  "homepage": "https://github.com/Ayysz/express-tdd#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.4",
+    "supertest": "^6.2.4"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.0",
+    "cross-env": "^7.0.3"
+  }
+}
